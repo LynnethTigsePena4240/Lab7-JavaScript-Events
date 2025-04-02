@@ -80,6 +80,17 @@ function validateEmail(email)
 }
 
 //Focus events
+let input = document.getElementById("focus_input")
+let focus_msg = document.getElementById("focus_msg")
 
+input.addEventListener("focus", function()
+{
+    focus_msg.innerHTML = "Focused"
+})
+
+input.addEventListener("blur", function()
+{
+    focus_msg.innerHTML = "Unfocused aka its bluryy!"
+})
 
 // event delegation
