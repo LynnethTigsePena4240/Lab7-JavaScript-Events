@@ -1,3 +1,22 @@
+//Mouse Events
+let mouseE_btn = document.getElementById("mouse_event_btn")
+let mouse_msg = document.getElementById("mouse_message")
+
+mouseE_btn.addEventListener("mouseenter", function()
+{
+    mouse_msg.innerHTML = "The mouse has entered the building!"
+})
+
+mouseE_btn.addEventListener("mouseleave", function()
+{
+    mouse_msg.innerHTML = "The mouse has left the building"
+})
+
+
+//Keyboard Events
+
+
+//Form Events
 const form = document.getElementById("form")
 const nameInput = document.getElementById("name")
 const emailInput = document.getElementById("email")
@@ -44,3 +63,8 @@ function validateEmail(email)
     const re = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     return re.test(String(email))
 }
+
+//Focus events
+
+
+// event delegation
