@@ -34,6 +34,7 @@ const submitbtn = document.getElementById("submitbtn")
 const nameErr = document.getElementById("nameErr")
 const emailErr = document.getElementById("emailErr")
 
+let success_msg = document.getElementById("success_msg")
 form.addEventListener("submit", function(event)
 {
 
@@ -63,6 +64,11 @@ form.addEventListener("submit", function(event)
     if (!isVaild)
     {
         event.preventDefault();
+    }
+
+    else{
+        event.preventDefault();
+        success_msg.innerHTML = "Submission sent!"
     }
 
 })
