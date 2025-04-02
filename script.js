@@ -5,11 +5,14 @@ let mouse_msg = document.getElementById("mouse_message")
 mouseE_btn.addEventListener("mouseenter", function()
 {
     mouse_msg.innerHTML = "The mouse has entered the building!"
+    console.log("mouse hover started");
+    
 })
 
 mouseE_btn.addEventListener("mouseleave", function()
 {
     mouse_msg.innerHTML = "The mouse has left the building"
+    console.log("mouse hover ended");
 })
 
 
