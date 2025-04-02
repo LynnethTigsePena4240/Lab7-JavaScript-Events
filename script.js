@@ -103,24 +103,24 @@ container.addEventListener("click", function(event)
     if (event.target.tagName === "BUTTON")
     {
         // alert("you clicked:" + event.target.textContent)
-        if(event.target.textContent === "btn 1")
+        if(event.target.textContent === "Button 1")
         {
-            dele_msg.innerHTML = "btn 1: seek first the kingdom and all will be added"
+            dele_msg.innerHTML = "Button 1: Seek first the kingdom and all will be added"
         }
 
-        if(event.target.textContent === "btn 2")
+        if(event.target.textContent === "Button 2")
         {
-            dele_msg.innerHTML = "btn 2: two cool to function theheheeh"
+            dele_msg.innerHTML = "Button 2: Two cool two function theheheeh"
         }
         
-        if(event.target.textContent === "btn 3")
+        if(event.target.textContent === "Button 3")
         {
-            dele_msg.innerHTML = "btn 3: howdy partner!"
+            dele_msg.innerHTML = "Button 3: Howdy partner!"
         }
 
-        if(event.target.textContent === "btn 4")
+        if(event.target.textContent === "Button 4")
         {
-            dele_msg.innerHTML = "btn 4: for God has not given me a spirt of fear but of power, love and a sound miind.. PERIODDD!"
+            dele_msg.innerHTML = "Button 4: For God has not given me a spirt of fear but of power, love and a sound miind.. PERIODDD!"
         }
     }
 })

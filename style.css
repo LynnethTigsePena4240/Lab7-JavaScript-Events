@@ -24,4 +24,6 @@ button:hover{
 
 .Delegation{
     display: inline-flexbox;
+    flex-wrap: wrap;
+    width: 250px;
 }
