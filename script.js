@@ -17,7 +17,13 @@ mouseE_btn.addEventListener("mouseleave", function()
 
 
 //Keyboard Events
+let input_box = document.getElementById("keyevent")
+let keybord_msg = document.getElementById("Keyboard_msg")
+input_box.addEventListener("keydown", function(event)
+{
+   keybord_msg.innerText = `last key pressed ${event.key} `
 
+})
 
 //Form Events
 const form = document.getElementById("form")
