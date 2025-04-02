@@ -1,7 +1,10 @@
 :root{
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
+h1{
+    text-align: center;;
+}
 button{
     border-radius: 5px;
     padding: 5px;
@@ -17,4 +20,8 @@ button:hover{
 
 .error{
     color: red;
+}
+
+.Delegation{
+    display: inline-flexbox;
 }
